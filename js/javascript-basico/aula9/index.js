@@ -66,8 +66,18 @@ let contador3 = 2;
 contador3 **= 10;
 console.log(contador3);
 
-//NaN - Not a number
+//NaN - Not a number parseInt (inteiro), parseFloat (decimais),
 const num1 = 10;
 const num2 = parseInt('5');
 console.log(num1 + num2);
+console.log( typeof num2);
+
+const num20 = 10;
+const num21 = parseFloat('5,2');
+console.log(num20 + num21);
+console.log( typeof num2);
+
+const num23 = 10;
+const num24 = Number('5');
+console.log(num23 + num24);
 console.log( typeof num2);
